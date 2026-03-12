@@ -8,9 +8,11 @@ exports.handler = async (event, context) => {
     const providerPhones = (process.env.PROVIDER_PHONES || '+15550001111,+15550002222').split(',');
 
     // We use the <Dial> verb to ring them all simultaneously
+    // We add an `action` webhook so if nobody answers, our Virtual Receptionist agent can text them.
     const dial = twiml.dial({
         callerId: process.env.TWILIO_PHONE_NUMBER || '+15417958733',
-        timeout: 20 // Ring for 20 seconds before giving up
+        timeout: 20, // Ring for 20 seconds before giving up
+        action: '/.netlify/functions/agent-receptionist'
     });
 
     providerPhones.forEach(number => {
