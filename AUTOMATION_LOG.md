@@ -13,9 +13,9 @@
 - [x] Refactor backend to eliminate third-party email dependencies and streamline Twilio.
 
 ### Phase 7: Verification & Testing
-- [/] Set up local testing for new lead distribution system.
-- [ ] Automate research verification and provide login/passwords where needed.
-- [ ] Review Eugene (Trees) website integration locally.
+- [x] Set up local testing for new lead distribution system.
+- [x] Automate research verification and provide login/passwords where needed.
+- [/] Review Eugene (Trees) website integration locally.
 - [ ] Review West Seattle (Hardscapes) website integration locally (apply same backend structure).
 
 ---
