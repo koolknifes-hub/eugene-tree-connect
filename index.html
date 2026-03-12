@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Best Tree Service & Removal in Eugene, OR</title>
+    <meta name="description"
+        content="Compare and connect with top-rated, licensed tree service professionals in Eugene, OR. Request one free estimate and we'll match you with the best local arborist for your needs.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Outfit:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-network-wired logo-icon"></i>
+                <span class="logo-text">Eugene Tree <span class="accent">Connect</span></span>
+            </a>
+            <nav class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="tel:5417958733" style="color: var(--accent-color); font-weight: 700; font-size: 1.15rem; text-decoration: none; display: flex; align-items: center; gap: 0.5rem; transition: opacity 0.3s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+                <i class="fas fa-phone-alt"></i> (541) 795-TREE
+            </a>
+            <div class="mobile-menu-btn"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="trust-badge">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>The Eugene & Springfield Connection Hub</span>
+                </div>
+                <h1>Find Eugene's Best <br /><span class="accent">Tree Service Pros</span></h1>
+                <p>Don't waste time calling around. Tell us what you need, and we'll connect you instantly with the
+                    highest-rated, fully-insured tree experts in the Eugene and Springfield area.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="cta-button primary"><i class="fa-solid fa-bolt"></i> Match Me Now</a>
+                    <a href="#services" class="cta-button secondary">See Services</a>
+                </div>
+            </div>
+
+            <div class="hero-form-card" id="contact">
+                <h3>Describe Your Project to Get Matched</h3>
+                <p>Get matched with the perfect expert in Lane County.</p>
+                <form id="lead-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="text" placeholder="Zip Code" required pattern="[0-9]{5}" title="Five digit zip code">
+                    <select required>
+                        <option value="" disabled selected>Preferred Contact Method...</option>
+                        <option value="phone">Phone Call</option>
+                        <option value="text">Text Message</option>
+                        <option value="email">Email</option>
+                    </select>
+                    <select required>
+                        <option value="" disabled selected>Service Needed...</option>
+                        <option value="emergency">Emergency Tree Removal</option>
+                        <option value="removal">Standard Tree Removal</option>
+                        <option value="pruning">Trimming & Pruning</option>
+                        <option value="stump">Stump Grinding</option>
+                        <option value="other">Other / Custom</option>
+                    </select>
+                    <textarea placeholder="Please describe your project or issue (optional)..." rows="3" style="padding: 1rem; border: 1px solid #e5e7eb; border-radius: 8px; font-family: inherit; font-size: 1rem; transition: var(--transition); background-color: rgba(255, 255, 255, 0.8); resize: vertical; margin-bottom: 0.5rem; width: 100%;"></textarea>
+                    <button type="submit" class="cta-button submit-btn">Find My Pro</button>
+                    <span class="privacy-note"><i class="fa-solid fa-lock"></i> Your information is secure.</span>
+                </form>
+                <div id="form-success"
+                    style="display: none; color: white; background: var(--primary-color); padding: 1rem; border-radius: 8px; margin-top: 1rem; text-align: center;">
+                    <i class="fa-solid fa-check-circle"
+                        style="font-size: 2rem; margin-bottom: 0.5rem; color: var(--accent-color);"></i><br>
+                    <strong>Success!</strong> Your request has been sent to our network. A specialist will contact you
+                    shortly.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Signals Section -->
+    <section class="trust-section">
+        <div class="container trust-grid">
+            <div class="trust-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div>
+                    <h4>Vetted Network</h4>
+                    <p>We only work with licensed pros.</p>
+                </div>
+            </div>
+            <div class="trust-item">
+                <i class="fa-solid fa-handshake"></i>
+                <div>
+                    <h4>Save Time & Hassle</h4>
+                    <p>One request, multiple options.</p>
+                </div>
+            </div>
+            <div class="trust-item">
+                <i class="fa-solid fa-certificate"></i>
+                <div>
+                    <h4>Quality Assured</h4>
+                    <p>We match you with highly-rated experts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section (New for Aggregator) -->
+    <section id="how-it-works" class="section-padding" style="background-color: var(--bg-color);">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>How <span class="accent">It Works</span></h2>
+                <p>Getting your trees serviced in the Eugene and Springfield area has never been easier.</p>
+                <p style="margin-top: 1rem; font-weight: 600; font-size: 1.25rem;">Call Us Directly: <a href="tel:5417958733" style="color: var(--accent-color); text-decoration: none;">(541) 795-8733</a></p>
+            </div>
+            <div class="trust-grid" style="color: var(--text-dark);">
+                <div class="text-center"
+                    style="padding: 2rem; background: white; border-radius: 8px; box-shadow: var(--shadow-sm);">
+                    <div
+                        style="width: 50px; height: 50px; background: var(--primary-color); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin: 0 auto 1rem; font-weight: bold;">
+                        1</div>
+                    <h4 style="margin-bottom: 0.5rem; color: var(--primary-color);">Tell Us Your Needs</h4>
+                    <p style="color: var(--text-light); font-size: 0.95rem;">Fill out our quick form or call our
+                        central line to describe your tree issue.</p>
+                </div>
+                <div class="text-center"
+                    style="padding: 2rem; background: white; border-radius: 8px; box-shadow: var(--shadow-sm);">
+                    <div
+                        style="width: 50px; height: 50px; background: var(--primary-color); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin: 0 auto 1rem; font-weight: bold;">
+                        2</div>
+                    <h4 style="margin-bottom: 0.5rem; color: var(--primary-color);">We Find the Right Pro</h4>
+                    <p style="color: var(--text-light); font-size: 0.95rem;">Our system instantly matches your request
+                        with the best-suited experts available in Lane County.</p>
+                </div>
+                <div class="text-center"
+                    style="padding: 2rem; background: white; border-radius: 8px; box-shadow: var(--shadow-sm);">
+                    <div
+                        style="width: 50px; height: 50px; background: var(--primary-color); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin: 0 auto 1rem; font-weight: bold;">
+                        3</div>
+                    <h4 style="margin-bottom: 0.5rem; color: var(--primary-color);">Get Your Estimates</h4>
+                    <p style="color: var(--text-light); font-size: 0.95rem;">The selected pros will reach out using
+                        your preferred contact method to provide quotes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vetting Process Section -->
+    <section class="section-padding" style="background-color: var(--primary-color); color: white;">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2 style="color: white;">Our Strict <span class="accent">Vetting Process</span></h2>
+                <p style="color: rgba(255, 255, 255, 0.8);">We only partner with the best. Every tree service in our
+                    network must pass these rigid standards.</p>
+            </div>
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <i class="fa-solid fa-id-card"></i>
+                    <div>
+                        <h4 style="color: var(--accent-color);">CCB Licensed & Verified</h4>
+                        <p>We actively verify Construction Contractors Board (CCB) licenses for compliance.</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="fa-solid fa-file-shield"></i>
+                    <div>
+                        <h4 style="color: var(--accent-color);">Fully Insured</h4>
+                        <p>Extensive liability and worker's compensation insurance is mandatory.</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div>
+                        <h4 style="color: var(--accent-color);">Highest Community Ratings</h4>
+                        <p>Providers must maintain strict 4.5+ star review averages to remain in the network.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Services Our <span class="accent">ISA-Certified Network Provides</span></h2>
+                <p>We connect you with specialists for comprehensive tree care in Eugene and Lane County.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <img src="assets/images/tree-removal.jpg" alt="Hazardous Tree Removal" class="service-card-img">
+                    <div class="service-card-content">
+                        <div class="service-icon"><i class="fa-solid fa-tree"></i></div>
+                        <h3>Hazardous Tree Removal</h3>
+                        <p>Connect with crews equipped for the safe, precise removal of dangerous trees.</p>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <img src="assets/images/storm-cleanup.jpg" alt="Emergency Storm Support" class="service-card-img">
+                    <div class="service-card-content">
+                        <div class="service-icon"><i class="fa-solid fa-wind"></i></div>
+                        <h3>Emergency Storm Support</h3>
+                        <p>Get matched instantly with pros available for 24/7 rapid response cleanup.</p>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <img src="assets/images/tree-pruning.jpg" alt="Pruning and Trimming" class="service-card-img">
+                    <div class="service-card-content">
+                        <div class="service-icon"><i class="fa-solid fa-scissors"></i></div>
+                        <h3>Pruning & Trimming</h3>
+                        <p>Find certified arborists for professional weight reduction and deadwooding.</p>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <img src="assets/images/stump-grinding.jpg" alt="Stump Grinding" class="service-card-img">
+                    <div class="service-card-content">
+                        <div class="service-icon"><i class="fa-solid fa-gear"></i></div>
+                        <h3>Stump Grinding</h3>
+                        <p>Locate contractors specializing in complete stump removal below grade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section (Hidden until real partner reviews are secured) -->
+    <!-- 
+    <section class="section-padding" style="background-color: var(--bg-color);">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Trusted by 500+ <span class="accent">Lane County Residents</span></h2>
+                <p>See what your neighbors are saying about our connection speed and the quality of our network professionals.</p>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"A huge oak branch fell on our roof during the last storm. I used this site and had three trucks from different local companies out here bidding within an hour. Incredible service."</p>
+                    <div class="reviewer">- Marcus T., Eugene</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"I didn't know who to trust for removing the dead pine near my power lines. The crew they connected me with was extremely professional, fully insured, and cleaned up everything perfectly."</p>
+                    <div class="reviewer">- Sarah W., Springfield</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Fast, free, and super easy. I got three quotes for stump grinding and picked the best one. Highly recommend this for finding local contractors."</p>
+                    <div class="reviewer">- David L., Eugene</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- CTA Section -->
+    <section class="bottom-cta">
+        <div class="container text-center">
+            <h2>Don't Wait Until It Falls.</h2>
+            <p>Let us connect you with a reliable Lane County tree service right now.</p>
+            <a href="tel:5417958733" class="cta-button primary large"><i class="fa-solid fa-phone"></i> Call (541)
+                795-TREE Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fa-solid fa-network-wired logo-icon"></i>
+                        <span class="logo-text" style="color: white;">Eugene Tree <span
+                                class="accent">Connect</span></span>
+                    </a>
+                    <p>A free service connecting homeowners in Eugene, Springfield, and Lane County with licensed,
+                        highly-rated local tree care professionals.</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4>Top Requests</h4>
+                    <a href="tree-removal.html">Tree Removal</a>
+                    <a href="#services">Stump Grinding</a>
+                    <a href="#services">Pruning</a>
+                    <a href="#services">Emergency Help</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Network Support</h4>
+                    <p><i class="fa-solid fa-phone"></i> <a href="tel:5417958733">(541) 795-8733</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Eugene Tree Connect. All rights reserved. We are a free referral service connecting
+                    consumers to local contractors.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        document.getElementById('lead-form').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const btn = document.querySelector('.submit-btn');
+            btn.textContent = 'Sending...';
+            btn.disabled = true;
+
+            const inputs = this.querySelectorAll('input, select, textarea');
+            const data = {
+                name: inputs[0].value,
+                phone: inputs[1].value,
+                email: inputs[2].value,
+                zip: inputs[3].value,
+                contact: inputs[4].value,
+                service: inputs[5].value,
+                description: inputs[6] ? inputs[6].value : ''
+            };
+
+            try {
+                const response = await fetch('/.netlify/functions/submit-lead', {
+                    method: 'POST',
+                    body: JSON.stringify(data),
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+                if (response.ok) {
+                    this.style.display = 'none';
+                    document.getElementById('form-success').style.display = 'block';
+                } else {
+                    alert('There was an error communicating with the server. Please call us directly.');
+                }
+            } catch (error) {
+                console.error(error);
+                alert('There was an network error. Please call us directly.');
+            } finally {
+                btn.textContent = 'Find My Pro';
+                btn.disabled = false;
+            }
+        });
+    </script>
+</body>
+
+</html>

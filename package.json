@@ -1,0 +1,12 @@
+{
+  "name": "eugene-tree-surgeons",
+  "version": "1.0.0",
+  "description": "Serverless Netlify functions for Eugene Tree Connect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "twilio": "^5.0.0"
+  }
+}
