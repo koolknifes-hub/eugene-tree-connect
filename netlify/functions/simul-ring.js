@@ -10,8 +10,10 @@ exports.handler = async (event) => {
     // The user's requested testing phone number
     const contractorPhone = '+19076024225';
 
-    // Dial the number
-    const dial = response.dial();
+    // Dial the number using the Twilio number as the Caller ID (req. for Trial accounts)
+    const dial = response.dial({
+        callerId: process.env.TWILIO_PHONE_NUMBER || '+15417958733'
+    });
 
     // Include the "Whisper" message so the contractor knows the lead came from us
     dial.number({
